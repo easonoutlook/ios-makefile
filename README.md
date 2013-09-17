@@ -3,7 +3,7 @@ The universal makefile for my iOS projects distributes IPAs in seconds. (a.k.a. 
 
 ## Features
 * Git log as release notes
-* Shorten URL with my open source shortener: http://lexr.us <del>or goo.gl</del>
+* Shorten URL with my open source shortener: goo.gl
 * QRCode of URL.
 * Upload to SFTP via rsync -- ```make upload```
 * Send emails with Mailgun -- ```make send_email```
@@ -14,9 +14,6 @@ The universal makefile for my iOS projects distributes IPAs in seconds. (a.k.a. 
 ## Screenshots
 ![screen shot 2013-07-03 at 10 59 13 pm](https://f.cloud.github.com/assets/219689/744065/8faf92da-e3f4-11e2-9b97-889543a27fd4.png)
 
-![photo jul 03 10 56 46 pm](https://f.cloud.github.com/assets/219689/744074/af12b422-e3f4-11e2-9ffe-2687d2790b3b.png)
-
-![screen shot 2013-07-03 at 10 54 24 pm](https://f.cloud.github.com/assets/219689/744070/a4b57866-e3f4-11e2-96f8-624b1c0c71da.png)
 
 ## Install
 
@@ -39,10 +36,10 @@ Install [libqrencode](http://fukuchi.org/works/qrencode/) if you need the QRCode
 * But I prefer spamming my buddies with iMessage ```make imessage```.
 
 ## Credits
-iOS Makefile was created by [Lex Tang](http://lextang.com/)
+iOS Makefile was fork from lexrus, modified this by eason.
 
 ## Contact
-Follow [@lexrus on Twitter](https://twitter.com/lexrus)
+Follow [@easonoutlook on Twitter](https://twitter.com/easonoutlook)
 
 ## License
 This code is distributed under the terms and conditions of the MIT license.
